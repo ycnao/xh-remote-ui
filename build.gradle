@@ -1,0 +1,26 @@
+// Top-level build file where you can add configuration options common to all sub-projects/modules.
+// 1. 保留buildscript块引入GreenDao（仅用于该插件，其他插件用plugins块）
+buildscript {
+    repositories {
+        google()
+        mavenCentral() // GreenDao插件从该仓库拉取
+        // 阿里云镜像（替代jcenter，jcenter已废弃）
+        maven { url 'https://maven.aliyun.com/repository/public' }
+        // 原maven.org可省略（mavenCentral已包含）
+        maven { url 'https://jitpack.io' }
+    }
+    dependencies {
+        // 手动引入GreenDao插件（唯一方式）
+        classpath 'org.greenrobot:greendao-gradle-plugin:3.3.0'
+    }
+}
+
+plugins {
+    id 'com.android.application' version '7.2.1' apply false
+    id 'com.android.library' version '7.2.1' apply false
+    id 'org.jetbrains.kotlin.android' version '1.6.10' apply false
+}
+
+task clean(type: Delete) {
+    delete rootProject.buildDir
+}
