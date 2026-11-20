@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="protocol_list">
+        <item>Оригинал</item>
+        <item>Собственная разработка</item>
+    </string-array>
+
+    <string-array name="ui_list">
+        <item>Классический</item>
+        <item>Без границ</item>
+    </string-array>
+
+    <string-array name="dev_player_set_info">
+        <item>Прямо</item>
+        <item>Обратно</item>
+    </string-array>
+    <string-array name="dev_video_set_info">
+        <item>Только видео</item>
+        <item>С данными</item>
+    </string-array>
+    <string-array name="worker_time">
+        <item>30 мин</item>
+        <item>1 час</item>
+        <item>2 часа</item>
+        <item>3 часа</item>
+        <item>Никогда</item>
+    </string-array>
+    <string-array name="dev_video_rotation">
+        <item>0</item>
+        <item>90</item>
+        <item>180</item>
+        <item>270</item>
+    </string-array>
+    <string-array name="wallpaper_list">
+        <item>Просмотр</item>
+        <item>Применение</item>
+    </string-array>
+
+</resources>

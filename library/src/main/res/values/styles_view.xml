@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <style name="WheelDefault">
+        <item name="wheel_visibleItemCount">3</item>
+        <item name="wheel_itemTextAlign">center</item>
+        <item name="wheel_itemSpace">30dp</item>
+        <item name="wheel_itemTextColor">#626982</item>
+        <item name="wheel_itemTextColorSelected">@color/color_write</item>
+        <item name="wheel_itemTextSize">22sp</item>
+        <item name="wheel_itemTextSizeSelected">18sp</item>
+        <item name="wheel_itemTextBoldSelected">true</item>
+        <item name="wheel_sameWidthEnabled">false</item>
+        <item name="wheel_curtainEnabled">false</item>
+        <item name="wheel_curtainColor">#FFDEDEDE</item>
+        <item name="wheel_cyclicEnabled">true</item>
+        <item name="wheel_indicatorEnabled">true</item>
+        <item name="wheel_indicatorColor">#3D4255</item>
+        <item name="wheel_indicatorSize">1dp</item>
+    </style>
+
+    <style name="CustomSeekbarStyle">
+        <item name="android:maxHeight">10dp</item>
+        <item name="android:indeterminateOnly">false</item>
+        <item name="android:indeterminateDrawable">@color/color_qing</item>
+        <item name="android:progressDrawable">@drawable/layer_seek_bar_air_cold_progress</item>
+        <item name="android:minHeight">10dp</item>
+        <item name="android:splitTrack">false</item>
+        <item name="android:thumb">@drawable/circular_seekbar_thumb</item>
+        <item name="android:padding">4dp</item>
+        <item name="android:rotation">0</item>
+        <item name="android:max">100</item>
+        <item name="progress">0</item>
+        <item name="android:layout_marginLeft">16dp</item>
+        <item name="android:layout_marginRight">16dp</item>
+    </style>
+
+    <style name="CustomLingJingSeekbarStyle">
+        <item name="android:maxHeight">10dp</item>
+        <item name="android:indeterminateOnly">false</item>
+        <item name="android:indeterminateDrawable">@color/color_qing</item>
+        <item name="android:progressDrawable">@drawable/layer_seek_bar_air_cold_progress</item>
+        <item name="android:minHeight">10dp</item>
+        <item name="android:splitTrack">false</item>
+        <item name="android:thumb">@drawable/circular_seekbar_thumb</item>
+        <item name="android:padding">4dp</item>
+        <item name="android:rotation">0</item>
+        <item name="android:max">100</item>
+        <item name="progress">0</item>
+        <item name="android:layout_marginRight">8dp</item>
+    </style>
+    <!--弹窗-->
+    <style name="DialogStyle" parent="android:style/Theme.Dialog">
+        <item name="android:windowFullscreen">true</item>
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:windowBackground">@android:color/transparent</item>
+        <item name="android:background">@android:color/transparent</item>
+        <item name="android:windowFrame">@null</item>
+        <item name="android:windowContentOverlay">@null</item>
+        <item name="android:windowIsFloating">true</item>
+        <item name="android:windowIsTranslucent">true</item>
+        <item name="android:windowAnimationStyle">@android:style/Animation.Dialog</item>
+        <item name="android:backgroundDimEnabled">true</item>
+        <item name="android:backgroundDimAmount">0.6</item>
+    </style>
+
+</resources>

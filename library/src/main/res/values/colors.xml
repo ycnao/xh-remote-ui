@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <color name="colorPrimary">#1379d6</color>
+    <color name="colorPrimaryDark">#1379d6</color>
+    <color name="colorAccent">#1379d6</color>
+    <color name="Accent">#1379d6</color>
+
+    <color name="colorBackground">#F7F3E8</color>
+
+    <color name="color_blue">#6200EE</color>
+    <color name="color_blue_dark">#3700B3</color>
+    <color name="color_qing">#03DAC5</color>
+    <color name="color_write">#FFFFFF</color>
+    <color name="color_red">#FF0000</color>
+
+    <color name="purple_200">#FFBB86FC</color>
+    <color name="purple_500">#FF6200EE</color>
+    <color name="purple_700">#FF3700B3</color>
+    <color name="teal_200">#FF03DAC5</color>
+    <color name="teal_700">#FF018786</color>
+
+    <color name="txt_21">#212121</color>
+    <color name="txt_black">#282f3f</color>
+    <color name="txt_45">#454545</color>
+    <color name="txt_77">#777777</color>
+    <color name="txt_grey_20">#050B20</color>
+    <color name="txt_grey_A0">#7C8DA0</color>
+    <color name="txt_input">#020203</color>
+    <color name="txt_hint">#D3D3D1</color>
+    <color name="txt_FC">#fcfcfc</color>
+    <color name="bottom_bar_normal_bg">#2D2F31</color>
+    <color name="common_bottom_bar_selected_bg">#161718</color>
+    <color name="common_bottom_bar_normal_bg">#2d2f31</color>
+
+    <color name="blueFC_color">#5567fc</color>
+    <color name="blueD6_color">#1379d6</color>
+    <color name="blue9C_color">#1F9CF5</color>
+    <color name="blue93_color">#1093ff</color>
+    <color name="blueA7_color">#2ea7e0</color>
+    <color name="blueC1_color">#10c1ff</color>
+
+    <color name="greyA0_color">#7C8DA0</color>
+    <color name="greyE0_color">#E0000000</color>
+    <color name="grey73_color">#73000000</color>
+    <color name="grey40_color">#40000000</color>
+
+    <color name="error_high_light_bg">#ff477c</color>
+    <color name="error_red">#ff477c</color>
+
+    <color name="red_cd000a">#CD000A</color>
+    <color name="darkRed">#FF702216</color>
+    <color name="lightGray">#FF323232</color>
+    <color name="deepGray">#FF8B8B8B</color>
+
+    <!--home tab 字体颜色-->
+    <color name="tab_home_text_p">#3fca96</color>
+    <color name="tab_home_text_n">#9d9d9d</color>
+    <color name="text_red_color">#d95340</color>
+    <color name="text_green_color">#43CD80</color>
+    <color name="order_qin_text">#0fc1a6</color>
+    <color name="qin_color">#f3f9fc</color>
+    <color name="green_07c060">#07C060</color>
+
+    <color name="order_red_text">#CCf57257</color>
+    <color name="red_orange_text">#fc6441</color>
+    <color name="red_high_light_bg">#FC664E</color>
+    <color name="btn_red">#f57257</color>
+    <color name="error_light_bg">#ff8d6a</color>
+    <color name="red_light_bg">#FD8F5C</color>
+    <color name="orange_text">#FF6F00</color>
+    <color name="yellow_text">#ff9600</color>
+
+    <!-- ********** pickerview选择器常用颜色值 ************* -->
+    <color name="pickerview_divider_color">#9D9D9D</color>
+    <color name="pickerview_cancel_text_color">#979696</color>
+    <color name="pickerview_submit_text_color">#FAA359</color>
+    <color name="pickerview_title_text_color">#1A78EC</color>
+    <color name="pickerview_center_text_color">#333333</color>
+
+</resources>

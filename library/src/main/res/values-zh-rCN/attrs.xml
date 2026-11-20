@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string-array name="protocol_list">
+        <item>原厂</item>
+        <item>自研</item>
+    </string-array>
+
+    <string-array name="ui_list">
+        <item>经典</item>
+        <item>无界</item>
+    </string-array>
+
+    <string-array name="dev_player_set_info">
+        <item>正向</item>
+        <item>反向</item>
+    </string-array>
+
+    <string-array name="dev_video_set_info">
+        <item>纯画面</item>
+        <item>含数据</item>
+    </string-array>
+
+    <string-array name="worker_time">
+        <item>30分钟</item>
+        <item>1小时</item>
+        <item>2小时</item>
+        <item>3小时</item>
+        <item>永不</item>
+    </string-array>
+
+    <string-array name="dev_video_rotation">
+        <item>0</item>
+        <item>90</item>
+        <item>180</item>
+        <item>270</item>
+    </string-array>
+
+    <string-array name="wallpaper_list">
+        <item>查看</item>
+        <item>应用</item>
+    </string-array>
+</resources>

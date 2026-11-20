@@ -1,0 +1,136 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="all">全部</string>
+    <string name="tips">提示</string>
+    <string name="more">更多</string>
+    <string name="apply">套用</string>
+    <string name="cancel">取消</string>
+    <string name="confirm">確定</string>
+    <string name="edit">編輯</string>
+    <string name="error">錯誤</string>
+    <string name="delete">刪除</string>
+    <string name="wifi">WIFI網路</string>
+    <string name="language">語言</string>
+    <string name="volume">音量</string>
+    <string name="fail">失敗</string>
+    <string name="success">成功</string>
+
+    <string name="not_data">暫無資料</string>
+    <string name="device_name">裝置名稱</string>
+    <string name="device_info">裝置資訊</string>
+    <string name="device_model">裝置型號</string>
+    <string name="device_model_sn">裝置序號</string>
+    <string name="app_names">App名稱</string>
+    <string name="app_version">App版本</string>
+    <string name="about_us">關於我們</string>
+    <string name="contact_us">聯絡我們</string>
+    <string name="volume_set">音量設定</string>
+    <string name="language_set">語言設定</string>
+    <string name="speech_engine">語音引擎</string>
+    <string name="speech_engine_set">引擎設定</string>
+    <string name="system_set">系統設定</string>
+    <string name="wallpaper">主題桌布</string>
+    <string name="user_manual">操作手冊</string>
+    <string name="developer_mode">開發者模式</string>
+    <string name="developer_function">開發者選項</string>
+
+    <string name="water_level">水量</string>
+    <string name="battery_level">電量</string>
+    <string name="dev_battery_level">裝置電量</string>
+    <string name="dev_water_level">裝置水量</string>
+    <string name="current_battery_level">目前電量</string>
+    <string name="current_water_level">目前水量</string>
+    <string name="battery_val">電池剩餘量</string>
+    <string name="battery_temp">電池溫度</string>
+    <string name="battery_dev">裝置電池</string>
+    <string name="battery_remote">遙控器電池</string>
+    <string name="battery_remote1">遙控電池</string>
+    <string name="battery">電池</string>
+    <string name="battery1">電池1</string>
+    <string name="battery2">電池2</string>
+    <string name="voltage">電壓</string>
+    <string name="voltage1">電壓1</string>
+    <string name="voltage2">電壓2</string>
+    <string name="electric">電流</string>
+    <string name="electric1">電流1</string>
+    <string name="electric2">電流2</string>
+    <string name="temperature">溫度</string>
+
+    <string name="dev_laboratory">實驗室</string>
+    <string name="dev_ota_check">OTA檢查</string>
+    <string name="dev_camera_state">攝影機檢查</string>
+    <string name="dev_device_tool">裝置助手</string>
+    <string name="dev_data_protocol">通訊協定</string>
+    <string name="screen_lock">螢幕鎖定</string>
+    <string name="file_management">檔案管理</string>
+    <string name="power_saving_mode">省電模式</string>
+    <string name="operation_manual">操作手冊</string>
+
+    <string name="export">匯出</string>
+    <string name="export_success">匯出成功</string>
+    <string name="export_error">匯出失敗</string>
+    <string name="password_error">密碼錯誤</string>
+    <string name="password_title">請輸入密碼</string>
+    <string name="dev_address_title">請輸入裝置編號</string>
+
+    <string name="dev_offline">裝置斷線</string>
+    <string name="dev_online">裝置連線</string>
+    <string name="dev_online_str">已連線裝置</string>
+    <string name="dev_not_line_str">未連線裝置</string>
+    <string name="dev_loading_str">裝置等待連線</string>
+    <string name="installed">已安裝</string>
+    <string name="installed_not">未安裝</string>
+    <string name="list_data_empty">目前清單無資料</string>
+    <string name="exit_application">再按一次返回鍵離開應用程式</string>
+    <string name="remote_battery_low">遙控器目前電量偏低</string>
+
+    <string name="is_install">有新版本，是否更新？</string>
+    <string name="is_install_apk">下載完成，是否安裝？</string>
+    <string name="is_install_speech">是否安裝語音引擎套件？</string>
+    <string name="is_install_live_tool">是否安裝直播助手？</string>
+    <string name="not_new_version">目前無可更新版本</string>
+    <string name="current_latest_version">已是最新版本</string>
+    <string name="check_update_failed">更新失敗</string>
+    <string name="download_apk_failed">下載失敗</string>
+    <string name="check_network_connected">請檢查網路連線</string>
+
+    <string name="video">影片</string>
+    <string name="rtsp_url">影片流位址</string>
+    <string name="video_address">影片位址</string>
+    <string name="open_hardware_decod">開啟硬體解碼</string>
+    <string name="open_guidelines">啟用輔助線</string>
+    <string name="open_activate_scope">啟用瞄準鏡</string>
+    <string name="play_live_tool">直播助手</string>
+    <string name="play_image_set">畫面設定</string>
+    <string name="video_rotation_set">畫面旋轉</string>
+    <string name="take_image_set">截圖設定</string>
+    <string name="take_video_set">錄影設定</string>
+    <string name="switch_screens">影片畫面切換中</string>
+    <string name="not_switch_screens">無可切換畫面</string>
+
+    <string name="report">報警</string>
+    <string name="warning">告警</string>
+    <string name="please_note">請注意</string>
+    <string name="please_select">請選擇</string>
+    <string name="please_input">請輸入</string>
+    <string name="please_input_name">請輸入名稱</string>
+    <string name="please_input_rtsp">請輸入RTSP位址</string>
+    <string name="please_confirm_delete">確認刪除？</string>
+    <string name="please_confirm_delete_file">確認刪除此檔案？</string>
+    <string name="please_confirm_delete_folder">確認刪除這個資料夾？</string>
+    <string name="remote_battery_level">遙控器剩餘電量</string>
+    <string name="remote_battery_low_tip">遙控器電量低</string>
+    <string name="remote_battery_temp_height_tip">遙控器溫度過高</string>
+
+
+    <string name="about_txt1">廣東凌度智能科技發展有限公司（簡稱凌度智能）成立於2021年，是國家高新技術企業，以「機器人+AI」為核心。我們以創新科技取代高空高強度人工作業，推動清潔服務產業邁向安全、高效、環保新紀元。</string>
+    <string name="about_txt2">公司聚焦高空幕牆與光伏板清潔領域，旗下凌雲、凌空、凌光系列機器人為行業標桿產品。產品服務全球20多國幕牆與光伏電站，擁有200多項知識產權，參與制定國內首個行業團體標準，位居行業技術領先地位。</string>
+    <string name="about_txt3">從國家高新企業、廣交會至尊金獎，到大灣區雙創大賽金獎、省市「隱形冠軍」培育計畫，各項榮譽見證我們的創新實力。凌度智能，以科技定義清潔的未來。</string>
+
+    <string name="contact_web">網址：https://www.x-humanbot.com</string>
+    <string name="contact_phone">電話：400-833-7577</string>
+    <string name="contact_email">信箱：info@gd-ldznkj.com</string>
+    <string name="contact_address">地址：廣州市黃埔區京廣協同創新中心2號樓主樓5層</string>
+
+</resources>

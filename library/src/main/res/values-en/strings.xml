@@ -1,0 +1,155 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="all">All</string>
+    <string name="tips">Tips</string>
+    <string name="more">More</string>
+    <string name="apply">Apply</string>
+    <string name="cancel">Cancel</string>
+    <string name="confirm">Confirm</string>
+    <string name="edit">Edit</string>
+    <string name="error">Error</string>
+    <string name="delete">Delete</string>
+    <string name="wifi">WiFi</string>
+    <string name="language">Language</string>
+    <string name="volume">Volume</string>
+    <string name="fail">Failed</string>
+    <string name="success">Succeeded</string>
+
+    <string name="not_data">No data</string>
+    <string name="device_name">Device Name</string>
+    <string name="device_info">Device Info</string>
+    <string name="device_model">Device Model</string>
+    <string name="device_model_sn">Serial Number</string>
+    <string name="app_names">App Name</string>
+    <string name="app_version">App Version</string>
+    <string name="about_us">About Us</string>
+    <string name="contact_us">Contact Us</string>
+    <string name="volume_set">Volume Settings</string>
+    <string name="language_set">Language Settings</string>
+    <string name="speech_engine">Speech Engine</string>
+    <string name="speech_engine_set">Engine Settings</string>
+    <string name="system_set">System Settings</string>
+    <string name="wallpaper">Wallpaper</string>
+    <string name="user_manual">User Manual</string>
+    <string name="developer_mode">Developer Mode</string>
+    <string name="developer_function">Developer Options</string>
+
+    <string name="water_level">Water Level</string>
+    <string name="battery_level">Battery Level</string>
+    <string name="dev_battery_level">Device Battery</string>
+    <string name="dev_water_level">Device Water Level</string>
+    <string name="current_battery_level">Current Battery</string>
+    <string name="current_water_level">Current Water Level</string>
+    <string name="battery_val">Battery Remaining</string>
+    <string name="battery_temp">Battery Temp</string>
+    <string name="battery_dev">Device Battery</string>
+    <string name="battery_remote">Remote Battery</string>
+    <string name="battery_remote1">Remote Battery</string>
+    <string name="battery">Battery</string>
+    <string name="battery1">Battery 1</string>
+    <string name="battery2">Battery 2</string>
+    <string name="voltage">Voltage</string>
+    <string name="voltage1">Voltage 1</string>
+    <string name="voltage2">Voltage 2</string>
+    <string name="electric">Current</string>
+    <string name="electric1">Current 1</string>
+    <string name="electric2">Current 2</string>
+    <string name="temperature">Temperature</string>
+
+    <string name="dev_laboratory">Laboratory</string>
+    <string name="dev_ota_check">OTA Check</string>
+    <string name="dev_camera_state">Camera Check</string>
+    <string name="dev_device_tool">Device Assistant</string>
+    <string name="dev_data_protocol">Communication Protocol</string>
+    <string name="screen_lock">Screen Lock</string>
+    <string name="file_management">File Manager</string>
+    <string name="power_saving_mode">Power Saving Mode</string>
+    <string name="operation_manual">Operation Manual</string>
+
+    <string name="export">Export</string>
+    <string name="export_success">Export Succeeded</string>
+    <string name="export_error">Export Failed</string>
+    <string name="password_error">Wrong Password</string>
+    <string name="password_title">Enter Password</string>
+    <string name="dev_address_title">Enter Device No.</string>
+
+    <string name="dev_offline">Device Offline</string>
+    <string name="dev_online">Device Online</string>
+    <string name="dev_online_str">Device Connected</string>
+    <string name="dev_not_line_str">Device Not Connected</string>
+    <string name="dev_loading_str">Waiting for Connection</string>
+    <string name="installed">Installed</string>
+    <string name="installed_not">Not Installed</string>
+    <string name="list_data_empty">List is empty</string>
+    <string name="exit_application">Press back again to exit</string>
+    <string name="remote_battery_low">Remote battery low</string>
+
+    <string name="update">Update</string>
+    <string name="update_find">New version found</string>
+    <string name="update_select">Select Version</string>
+    <string name="update_hold_off">Later</string>
+    <string name="update_now">Update Now</string>
+    <string name="update_download">Download Update</string>
+    <string name="update_new_already">Latest version file already exists</string>
+    <string name="update_new_down_fail">Download failed [Check network or permissions]</string>
+    <string name="update_new_down_success">Latest version downloaded</string>
+    <string name="update_downloading">Downloading</string>
+    <string name="update_upgrading">Upgrading…</string>
+    <string name="update_fail">Upgrade Failed</string>
+    <string name="update_stop">Stop Upgrade</string>
+    <string name="update_success">Upgrade Succeeded</string>
+    <string name="update_version_new">New Version:</string>
+    <string name="update_version_date">Release Date:</string>
+    <string name="update_version_tips">Do not operate remote or device during upgrade</string>
+    <string name="update_version_loading">Upgrading, please wait…</string>
+    <string name="update_version_warning">Warning: Do not operate remote or device during upgrade</string>
+
+    <string name="is_install">New version available, update?</string>
+    <string name="is_install_apk">Download complete, install?</string>
+    <string name="is_install_speech">Install speech engine package?</string>
+    <string name="is_install_live_tool">Install live assistant?</string>
+    <string name="not_new_version">No new version</string>
+    <string name="current_latest_version">Already latest version</string>
+    <string name="check_update_failed">Update failed</string>
+    <string name="download_apk_failed">Download failed</string>
+    <string name="check_network_connected">Check network connection</string>
+
+    <string name="video">Video</string>
+    <string name="rtsp_url">RTSP URL</string>
+    <string name="video_address">Video Address</string>
+    <string name="open_hardware_decod">Hardware Decoding</string>
+    <string name="open_guidelines">Guide Lines</string>
+    <string name="open_activate_scope">Aim Scope</string>
+    <string name="play_live_tool">Live Assistant</string>
+    <string name="play_image_set">Image Settings</string>
+    <string name="video_rotation_set">Rotate Video</string>
+    <string name="take_image_set">Capture Settings</string>
+    <string name="take_video_set">Record Settings</string>
+    <string name="switch_screens">Switching view...</string>
+    <string name="not_switch_screens">No view to switch</string>
+
+    <string name="report">Alarm</string>
+    <string name="warning">Warning</string>
+    <string name="please_note">Note</string>
+    <string name="please_select">Please Select</string>
+    <string name="please_input">Please Input</string>
+    <string name="please_input_name">Input Name</string>
+    <string name="please_input_rtsp">Input RTSP URL</string>
+    <string name="please_confirm_delete">Delete this item?</string>
+    <string name="please_confirm_delete_file">Delete this file?</string>
+    <string name="please_confirm_delete_folder">Delete this folder?</string>
+    <string name="remote_battery_level">Remote Battery Level</string>
+    <string name="remote_battery_low_tip">Remote battery low</string>
+    <string name="remote_battery_temp_height_tip">Remote overheating</string>
+
+    <string name="about_txt1">Guangdong Lingdu Intelligent Technology Development Co., Ltd. (Lingdu Intelligent), founded in 2021, is a national high-tech enterprise focusing on Robot + AI. We replace high-risk manual work with innovative technology, leading cleaning industry to safety, efficiency and environmental protection.</string>
+    <string name="about_txt2">We focus on high-rise facade &amp; PV panel cleaning. Our Lingyun, Lingkong, Linggang robots serve over 20 countries. With 200+ IP rights and China’s first industry group standard, we are a tech leader in this field.</string>
+    <string name="about_txt3">Awards include Canton Fair Supreme Gold Award, GBA Innovation Competition Gold Award &amp; Provincial Hidden Champion Program. Lingdu Intelligent defines the future of cleaning with solid technology.</string>
+
+    <string name="contact_web">Web: https://www.x-humanbot.com</string>
+    <string name="contact_phone">Tel: 400-833-7577</string>
+    <string name="contact_email">Email: info@gd-ldznkj.com</string>
+    <string name="contact_address">Addr: 5F, Main Bldg, Building 2, Jingguang Innovation Center, Huangpu, Guangzhou</string>
+
+</resources>

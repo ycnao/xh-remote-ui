@@ -1,0 +1,156 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="all">Todo</string>
+    <string name="tips">Consejos</string>
+    <string name="more">Más</string>
+    <string name="apply">Aplicar</string>
+    <string name="cancel">Cancelar</string>
+    <string name="confirm">Confirmar</string>
+    <string name="edit">Editar</string>
+    <string name="error">Error</string>
+    <string name="delete">Eliminar</string>
+    <string name="wifi">WiFi</string>
+    <string name="language">Idioma</string>
+    <string name="volume">Volumen</string>
+    <string name="not_data">Sin datos</string>
+    <string name="fail">Fallido</string>
+    <string name="success">Correcto</string>
+
+    <string name="device_name">Nombre del dispositivo</string>
+    <string name="device_info">Info. del dispositivo</string>
+    <string name="device_model">Modelo</string>
+    <string name="device_model_sn">Número de serie</string>
+    <string name="app_names">Nombre de App</string>
+    <string name="app_version">Versión de App</string>
+    <string name="about_us">Acerca de</string>
+    <string name="contact_us">Contáctenos</string>
+    <string name="volume_set">Ajustes de volumen</string>
+    <string name="language_set">Ajustes de idioma</string>
+    <string name="speech_engine">Motor de voz</string>
+    <string name="speech_engine_set">Ajustes del motor</string>
+    <string name="system_set">Ajustes del sistema</string>
+    <string name="wallpaper">Fondo de pantalla</string>
+    <string name="user_manual">Manual de usuario</string>
+    <string name="developer_mode">Modo desarrollador</string>
+    <string name="developer_function">Opciones de desarrollador</string>
+
+    <string name="water_level">Nivel de agua</string>
+    <string name="battery_level">Nivel de batería</string>
+    <string name="dev_battery_level">Batería del equipo</string>
+    <string name="dev_water_level">Nivel de agua del equipo</string>
+    <string name="current_battery_level">Batería actual</string>
+    <string name="current_water_level">Nivel de agua actual</string>
+    <string name="battery_val">Batería restante</string>
+    <string name="battery_temp">Temperatura batería</string>
+    <string name="battery_dev">Batería del equipo</string>
+    <string name="battery_remote">Batería mando</string>
+    <string name="battery_remote1">Batería mando</string>
+    <string name="battery">Batería</string>
+    <string name="battery1">Batería 1</string>
+    <string name="battery2">Batería 2</string>
+    <string name="voltage">Voltaje</string>
+    <string name="voltage1">Voltaje 1</string>
+    <string name="voltage2">Voltaje 2</string>
+    <string name="electric">Corriente</string>
+    <string name="electric1">Corriente 1</string>
+    <string name="electric2">Corriente 2</string>
+    <string name="temperature">Temperatura</string>
+
+    <string name="dev_laboratory">Laboratorio</string>
+    <string name="dev_ota_check">Verificación OTA</string>
+    <string name="dev_camera_state">Verificación cámara</string>
+    <string name="dev_device_tool">Asistente de equipo</string>
+    <string name="dev_data_protocol">Protocolo de comunicación</string>
+    <string name="screen_lock">Bloqueo de pantalla</string>
+    <string name="file_management">Gestión de archivos</string>
+    <string name="power_saving_mode">Modo ahorro energía</string>
+    <string name="operation_manual">Manual operativo</string>
+
+    <string name="export">Exportar</string>
+    <string name="export_success">Exportación correcta</string>
+    <string name="export_error">Error al exportar</string>
+    <string name="password_error">Contraseña incorrecta</string>
+    <string name="password_title">Introduzca contraseña</string>
+    <string name="dev_address_title">Introduzca nº equipo</string>
+
+    <string name="dev_offline">Equipo desconectado</string>
+    <string name="dev_online">Equipo conectado</string>
+    <string name="dev_online_str">Equipo conectado</string>
+    <string name="dev_not_line_str">Sin conexión</string>
+    <string name="dev_loading_str">Esperando conexión</string>
+    <string name="installed">Instalado</string>
+    <string name="installed_not">No instalado</string>
+    <string name="list_data_empty">Lista vacía</string>
+    <string name="exit_application">Pulse atrás otra vez para salir</string>
+    <string name="remote_battery_low">Batería del mando baja</string>
+
+    <string name="update">Actualizar</string>
+    <string name="update_find">Nueva versión encontrada</string>
+    <string name="update_select">Seleccionar versión</string>
+    <string name="update_hold_off">Más tarde</string>
+    <string name="update_now">Actualizar ahora</string>
+    <string name="update_download">Descargar actualización</string>
+    <string name="update_new_already">El archivo de última versión ya existe</string>
+    <string name="update_new_down_fail">Fallo de descarga [Revise red o permisos]</string>
+    <string name="update_new_down_success">Descarga de última versión finalizada</string>
+    <string name="update_downloading">Descargando</string>
+    <string name="update_upgrading">Actualizando…</string>
+    <string name="update_fail">Fallo de actualización</string>
+    <string name="update_stop">Detener actualización</string>
+    <string name="update_success">Actualización completada</string>
+    <string name="update_version_new">Nueva versión:</string>
+    <string name="update_version_date">Fecha de publicación:</string>
+    <string name="update_version_tips">No opere el mando ni el dispositivo durante la actualización</string>
+    <string name="update_version_loading">Actualizando, espere por favor…</string>
+    <string name="update_version_warning">Aviso: No opere mando ni dispositivo durante la actualización</string>
+
+    <string name="is_install">Hay nueva versión, ¿actualizar?</string>
+    <string name="is_install_apk">Descarga terminada, ¿instalar?</string>
+    <string name="is_install_speech">¿Instalar paquete motor voz?</string>
+    <string name="is_install_live_tool">¿Instalar asistente en vivo?</string>
+    <string name="not_new_version">Sin actualizaciones</string>
+    <string name="current_latest_version">Ya es la última versión</string>
+    <string name="check_update_failed">Fallo al actualizar</string>
+    <string name="download_apk_failed">Fallo en descarga</string>
+    <string name="check_network_connected">Compruebe la red</string>
+
+    <string name="video">Vídeo</string>
+    <string name="rtsp_url">Dirección RTSP</string>
+    <string name="video_address">Dirección de vídeo</string>
+    <string name="open_hardware_decod">Decodificación hardware</string>
+    <string name="open_guidelines">Líneas guía</string>
+    <string name="open_activate_scope">Mira de puntería</string>
+    <string name="play_live_tool">Asistente en vivo</string>
+    <string name="play_image_set">Ajustes de imagen</string>
+    <string name="video_rotation_set">Rotación de imagen</string>
+    <string name="take_image_set">Ajustes captura</string>
+    <string name="take_video_set">Ajustes grabación</string>
+    <string name="switch_screens">Cambiando vista...</string>
+    <string name="not_switch_screens">Sin vistas para cambiar</string>
+
+    <string name="report">Alarma</string>
+    <string name="warning">Aviso</string>
+    <string name="please_note">Atención</string>
+    <string name="please_select">Seleccione</string>
+    <string name="please_input">Introduzca</string>
+    <string name="please_input_name">Introduzca nombre</string>
+    <string name="please_input_rtsp">Introduzca RTSP</string>
+    <string name="please_confirm_delete">¿Eliminar este elemento?</string>
+    <string name="please_confirm_delete_file">¿Eliminar este archivo?</string>
+    <string name="please_confirm_delete_folder">¿Eliminar esta carpeta?</string>
+    <string name="remote_battery_level">Nivel batería mando</string>
+    <string name="remote_battery_low_tip">Batería mando baja</string>
+    <string name="remote_battery_temp_height_tip">Mando sobrecalentado</string>
+
+
+    <string name="about_txt1">Guangdong Lingdu Intelligent Technology Development Co., Ltd. (Lingdu Intelligent), fundada en 2021, es empresa nacional de alta tecnología centrada en Robot + IA. Sustituimos trabajos manuales peligrosos en altura, haciendo el sector de limpieza más seguro, eficiente y sostenible.</string>
+    <string name="about_txt2">Nos especializamos en limpieza de fachadas y paneles fotovoltaicos. Nuestros robots Lingyun, Lingkong y Lingguang operan en más de 20 países. Contamos con más de 200 derechos de propiedad intelectual y la primera norma sectorial china.</string>
+    <string name="about_txt3">Premios: Premio de Oro superior de la Feria de Cantón, Premio Innovación de la Gran Bahía, programa "Campeón oculto". Lingdu Intelligent define el futuro de la limpieza.</string>
+
+    <string name="contact_web">Web: https://www.x-humanbot.com</string>
+    <string name="contact_phone">Tel: 400-833-7577</string>
+    <string name="contact_email">Email: info@gd-ldznkj.com</string>
+    <string name="contact_address">Dirección: Piso 5, Edificio Principal Bloque 2, Centro de Innovación Jingguang, Huangpu, Guangzhou</string>
+
+</resources>

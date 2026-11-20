@@ -1,0 +1,156 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="all">すべて</string>
+    <string name="tips">ヒント</string>
+    <string name="more">もっと</string>
+    <string name="apply">適用</string>
+    <string name="cancel">キャンセル</string>
+    <string name="confirm">確定</string>
+    <string name="edit">編集</string>
+    <string name="error">エラー</string>
+    <string name="delete">削除</string>
+    <string name="wifi">WiFi</string>
+    <string name="language">言語</string>
+    <string name="volume">音量</string>
+    <string name="not_data">データなし</string>
+    <string name="fail">失敗</string>
+    <string name="success">成功</string>
+
+    <string name="device_name">デバイス名</string>
+    <string name="device_info">デバイス情報</string>
+    <string name="device_model">型番</string>
+    <string name="device_model_sn">シリアル番号</string>
+    <string name="app_names">アプリ名</string>
+    <string name="app_version">アプリバージョン</string>
+    <string name="about_us">このアプリについて</string>
+    <string name="contact_us">お問い合わせ</string>
+    <string name="volume_set">音量設定</string>
+    <string name="language_set">言語設定</string>
+    <string name="speech_engine">音声エンジン</string>
+    <string name="speech_engine_set">エンジン設定</string>
+    <string name="system_set">システム設定</string>
+    <string name="wallpaper">壁紙</string>
+    <string name="user_manual">取扱説明書</string>
+    <string name="developer_mode">開発者モード</string>
+    <string name="developer_function">開発者オプション</string>
+
+    <string name="water_level">水量</string>
+    <string name="battery_level">電池残量</string>
+    <string name="dev_battery_level">機器電池</string>
+    <string name="dev_water_level">機器水量</string>
+    <string name="current_battery_level">現在電池残量</string>
+    <string name="current_water_level">現在水量</string>
+    <string name="battery_val">電池残量</string>
+    <string name="battery_temp">電池温度</string>
+    <string name="battery_dev">機器電池</string>
+    <string name="battery_remote">リモコン電池</string>
+    <string name="battery_remote1">リモコン電池</string>
+    <string name="battery">電池</string>
+    <string name="battery1">電池1</string>
+    <string name="battery2">電池2</string>
+    <string name="voltage">電圧</string>
+    <string name="voltage1">電圧1</string>
+    <string name="voltage2">電圧2</string>
+    <string name="electric">電流</string>
+    <string name="electric1">電流1</string>
+    <string name="electric2">電流2</string>
+    <string name="temperature">温度</string>
+
+    <string name="dev_laboratory">ラボ</string>
+    <string name="dev_ota_check">OTA確認</string>
+    <string name="dev_camera_state">カメラ確認</string>
+    <string name="dev_device_tool">デバイスアシスタント</string>
+    <string name="dev_data_protocol">通信プロトコル</string>
+    <string name="screen_lock">画面ロック</string>
+    <string name="file_management">ファイル管理</string>
+    <string name="power_saving_mode">省電力モード</string>
+    <string name="operation_manual">操作マニュアル</string>
+
+    <string name="export">エクスポート</string>
+    <string name="export_success">エクスポート成功</string>
+    <string name="export_error">エクスポート失敗</string>
+    <string name="password_error">パスワード違い</string>
+    <string name="password_title">パスワード入力</string>
+    <string name="dev_address_title">機器番号入力</string>
+
+    <string name="dev_offline">機器切断</string>
+    <string name="dev_online">機器接続</string>
+    <string name="dev_online_str">機器接続済み</string>
+    <string name="dev_not_line_str">未接続</string>
+    <string name="dev_loading_str">接続待ち</string>
+    <string name="installed">インストール済み</string>
+    <string name="installed_not">未インストール</string>
+    <string name="list_data_empty">リストが空です</string>
+    <string name="exit_application">戻るキー再押下で終了</string>
+    <string name="remote_battery_low">リモコン電池残量低下</string>
+
+    <string name="update">アップデート</string>
+    <string name="update_find">新バージョンを検出</string>
+    <string name="update_select">バージョン選択</string>
+    <string name="update_hold_off">あとで</string>
+    <string name="update_now">今すぐ更新</string>
+    <string name="update_download">更新ファイルダウンロード</string>
+    <string name="update_new_already">最新版ファイルが存在します</string>
+    <string name="update_new_down_fail">ダウンロード失敗[ネットワークまたは権限を確認]</string>
+    <string name="update_new_down_success">最新版ダウンロード完了</string>
+    <string name="update_downloading">ダウンロード中</string>
+    <string name="update_upgrading">アップグレード中…</string>
+    <string name="update_fail">アップグレード失敗</string>
+    <string name="update_stop">アップグレード停止</string>
+    <string name="update_success">アップグレード成功</string>
+    <string name="update_version_new">新バージョン：</string>
+    <string name="update_version_date">リリース日：</string>
+    <string name="update_version_tips">アップグレード中はリモコンと機器を操作しないでください</string>
+    <string name="update_version_loading">アップグレード中、しばらくお待ちください…</string>
+    <string name="update_version_warning">注意：アップグレード中、リモコン・機器の操作は禁止</string>
+
+    <string name="is_install">新バージョンがあります、更新しますか？</string>
+    <string name="is_install_apk">ダウンロード完了、インストールしますか？</string>
+    <string name="is_install_speech">音声エンジンパッケージをインストールしますか？</string>
+    <string name="is_install_live_tool">ライブアシスタントをインストールしますか？</string>
+    <string name="not_new_version">更新版なし</string>
+    <string name="current_latest_version">最新版です</string>
+    <string name="check_update_failed">更新失敗</string>
+    <string name="download_apk_failed">ダウンロード失敗</string>
+    <string name="check_network_connected">ネットワークを確認してください</string>
+
+    <string name="video">動画</string>
+    <string name="rtsp_url">RTSPアドレス</string>
+    <string name="video_address">動画アドレス</string>
+    <string name="open_hardware_decod">ハードウェアデコード</string>
+    <string name="open_guidelines">ガイドライン</string>
+    <string name="open_activate_scope">照準スコープ</string>
+    <string name="play_live_tool">ライブアシスタント</string>
+    <string name="play_image_set">画質設定</string>
+    <string name="video_rotation_set">画面回転</string>
+    <string name="take_image_set">スクリーンショット設定</string>
+    <string name="take_video_set">録画設定</string>
+    <string name="switch_screens">画面切替中</string>
+    <string name="not_switch_screens">切替可能な画面なし</string>
+
+    <string name="report">アラーム</string>
+    <string name="warning">警告</string>
+    <string name="please_note">ご注意</string>
+    <string name="please_select">選択してください</string>
+    <string name="please_input">入力してください</string>
+    <string name="please_input_name">名前を入力</string>
+    <string name="please_input_rtsp">RTSPアドレスを入力</string>
+    <string name="please_confirm_delete">削除してよろしいですか？</string>
+    <string name="please_confirm_delete_file">このファイルを削除しますか？</string>
+    <string name="please_confirm_delete_folder">このフォルダを削除しますか？</string>
+    <string name="remote_battery_level">リモコン電池残量</string>
+    <string name="remote_battery_low_tip">リモコン電池切れ間近</string>
+    <string name="remote_battery_temp_height_tip">リモコン過熱</string>
+
+
+    <string name="about_txt1">広東凌度インテリジェント科技発展有限公司（凌度インテリジェント）は2021年設立、国家ハイテク企業で「ロボット＋AI」をコアとします。革新技術で高所作業の人手を代替し、清掃業界を安全・高効率・環境配慮へ導きます。</string>
+    <string name="about_txt2">高層カーテンウォール・太陽光パネル清掃に特化。凌雲、凌空、凌光シリーズロボットは業界の代表製品。世界20カ国以上で稼働、知的財産200件超、国内初の業界団体規格を策定し、技術リーダーです。</string>
+    <string name="about_txt3">国家ハイテク企業、広交会最高金賞、大湾区イノベーション大会金賞、省・市「隠れたチャンピオン」育成。凌度インテリジェントは技術で清掃の未来を作ります。</string>
+
+    <string name="contact_web">Web：https://www.x-humanbot.com</string>
+    <string name="contact_phone">電話：400-833-7577</string>
+    <string name="contact_email">メール：info@gd-ldznkj.com</string>
+    <string name="contact_address">住所：広州市黄埔区京広協同イノベーションセンター2号館本館5階</string>
+
+</resources>

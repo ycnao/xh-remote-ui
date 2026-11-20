@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layer-list xmlns:android="http://schemas.android.com/apk/res/android">
+    <!-- 进度条背景 -->
+    <item android:id="@android:id/background">
+        <shape>
+            <solid android:color="#E0E0E0" /> <!-- 灰色背景 -->
+            <corners android:radius="10dp" /> <!-- 圆角，可选 -->
+        </shape>
+    </item>
+    <!-- 进度条进度（动态变色） -->
+    <item android:id="@android:id/progress">
+        <clip>
+            <shape>
+                <solid android:color="#E74C3C" /> <!-- 默认颜色，代码中动态修改 -->
+                <corners android:radius="10dp" />
+            </shape>
+        </clip>
+    </item>
+</layer-list>

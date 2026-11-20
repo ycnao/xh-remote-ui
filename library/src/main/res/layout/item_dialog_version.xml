@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/dimen_5"
+        android:background="@drawable/input_radius_bg"
+        android:orientation="vertical"
+        android:padding="@dimen/dimen_5">
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/tv_name"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical"
+                android:layout_weight="1"
+                android:text="lingguang_a3_app_ota_2.5.1.5.bin"
+                android:textColor="@color/grey01"
+                android:textSize="@dimen/size_15sp" />
+
+            <TextView
+                android:id="@+id/btn_update"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="@dimen/dimen_10"
+                android:background="@drawable/btn_cancel_selector"
+                android:paddingLeft="@dimen/dimen_12"
+                android:paddingTop="@dimen/dimen_1"
+                android:paddingRight="@dimen/dimen_12"
+                android:paddingBottom="@dimen/dimen_1"
+                android:text="@string/update"
+                android:textColor="@color/Accent"
+                android:textSize="@dimen/size_12sp" />
+        </LinearLayout>
+
+        <TextView
+            android:id="@+id/tv_number"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_marginTop="@dimen/dimen_5"
+            android:text="发布版本：2.5.1.5"
+            android:textSize="@dimen/size_11sp" />
+
+        <TextView
+            android:id="@+id/tv_dateTime"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_marginTop="@dimen/dimen_3"
+            android:text="发布时间：2.5.1.5"
+            android:textSize="@dimen/size_11sp" />
+
+    </LinearLayout>
+</RelativeLayout>

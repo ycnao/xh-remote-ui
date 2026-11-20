@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/white"
+        android:orientation="horizontal"
+        android:padding="@dimen/dimen_10">
+
+        <RelativeLayout
+            android:layout_width="@dimen/dimen_40"
+            android:layout_height="@dimen/dimen_40">
+
+            <com.xcore.ui.widget.image.SquareImageView
+                android:id="@+id/imageView"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@color/grey91"
+                android:scaleType="centerCrop"
+                android:src="@mipmap/ic_image" />
+
+            <ImageView
+                android:layout_width="@dimen/dimen_15"
+                android:layout_height="@dimen/dimen_15"
+                android:layout_centerInParent="true"
+                android:src="@mipmap/ic_play" />
+
+        </RelativeLayout>
+
+        <LinearLayout
+            android:id="@+id/layout"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/dimen_10"
+            android:layout_weight="1"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/tv_name"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="ADD"
+                android:textColor="@color/grey01"
+                android:textSize="@dimen/size_14sp" />
+
+            <TextView
+                android:id="@+id/tv_url"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/dimen_3"
+                android:text="ADD"
+                android:textColor="@color/grey40_color"
+                android:textSize="@dimen/size_13sp" />
+        </LinearLayout>
+
+        <TextView
+            android:id="@+id/btn_del"
+            android:layout_width="@dimen/dimen_50"
+            android:layout_height="@dimen/dimen_23"
+            android:layout_gravity="center"
+            android:background="@drawable/btn_red_circle_line_bg"
+            android:gravity="center"
+            android:text="删除"
+            android:textColor="@color/text_red_color"
+            android:textSize="@dimen/size_13sp" />
+    </LinearLayout>
+</RelativeLayout>

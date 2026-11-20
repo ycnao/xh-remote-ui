@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="protocol_list">
+        <item>Original</item>
+        <item>Desarrollo propio</item>
+    </string-array>
+
+    <string-array name="ui_list">
+        <item>Clásico</item>
+        <item>Sin bordes</item>
+    </string-array>
+
+    <string-array name="dev_player_set_info">
+        <item>Directo</item>
+        <item>Inverso</item>
+    </string-array>
+    <string-array name="dev_video_set_info">
+        <item>Solo vídeo</item>
+        <item>Con datos</item>
+    </string-array>
+    <string-array name="dev_video_rotation">
+        <item>0</item>
+        <item>90</item>
+        <item>180</item>
+        <item>270</item>
+    </string-array>
+    <string-array name="wallpaper_list">
+        <item>Vista previa</item>
+        <item>Aplicar</item>
+    </string-array>
+
+</resources>

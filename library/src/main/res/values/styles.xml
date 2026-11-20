@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <style name="item_layout">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+    </style>
+
+    <style name="item_vertical_layout" parent="item_layout">
+        <item name="android:orientation">vertical</item>
+    </style>
+
+    <style name="set_item_layout" parent="item_layout">
+        <item name="android:paddingLeft">10dp</item>
+        <item name="android:paddingRight">10dp</item>
+        <item name="android:paddingTop">5dp</item>
+        <item name="android:paddingBottom">5dp</item>
+        <item name="android:layout_marginTop">@dimen/dimen_15</item>
+        <item name="android:orientation">vertical</item>
+    </style>
+
+    <style name="set_items_layout" parent="item_layout">
+        <item name="android:layout_marginTop">5dp</item>
+        <item name="android:layout_marginBottom">5dp</item>
+        <item name="android:layout_height">@dimen/dimen_40</item>
+        <item name="android:orientation">horizontal</item>
+    </style>
+
+    <style name="set_item_txt_left">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textSize">@dimen/size_14sp</item>
+        <item name="android:layout_gravity">center_vertical</item>
+        <item name="android:gravity">center_vertical</item>
+        <item name="android:textColor">@color/white</item>
+        <item name="android:layout_marginLeft">5dp</item>
+    </style>
+
+    <style name="set_item_txt_right" parent="set_item_txt_left">
+        <item name="android:layout_marginLeft">5dp</item>
+        <item name="android:layout_marginRight">5dp</item>
+        <item name="android:gravity">center_vertical</item>
+        <item name="android:layout_gravity">center_vertical</item>
+    </style>
+
+    <style name="set_item_switch_button">
+        <item name="android:layout_width">60dp</item>
+        <item name="android:layout_height">40dp</item>
+        <item name="android:checked">true</item>
+        <item name="android:layout_gravity">center_vertical</item>
+    </style>
+
+    <style name="set_item_line">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">1dp</item>
+        <item name="android:background">#3D4255</item>
+    </style>
+
+    <style name="item_text_right">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:gravity">center_vertical</item>
+        <item name="android:layout_gravity">center_vertical</item>
+        <item name="android:textColor">@color/white</item>
+        <item name="android:layout_marginRight">@dimen/dimen_10</item>
+        <item name="android:drawableRight">@mipmap/ic_item_right</item>
+        <item name="android:drawablePadding">@dimen/dimen_10</item>
+    </style>
+
+
+</resources>

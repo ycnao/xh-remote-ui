@@ -1,0 +1,156 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="all">全部</string>
+    <string name="tips">提示</string>
+    <string name="more">更多</string>
+    <string name="apply">应用</string>
+    <string name="cancel">取消</string>
+    <string name="confirm">确定</string>
+    <string name="edit">编辑</string>
+    <string name="error">错误</string>
+    <string name="delete">删除</string>
+    <string name="wifi">WIFI网络</string>
+    <string name="language">语言</string>
+    <string name="volume">音量</string>
+    <string name="fail">失败</string>
+    <string name="success">成功</string>
+
+    <string name="not_data">暂无数据</string>
+    <string name="device_name">设备名称</string>
+    <string name="device_info">设备信息</string>
+    <string name="device_model">设备型号</string>
+    <string name="device_model_sn">设备序列号</string>
+
+    <string name="app_names">App名称</string>
+    <string name="app_version">App版本</string>
+    <string name="about_us">关于我们</string>
+    <string name="contact_us">联系我们</string>
+    <string name="volume_set">音量设置</string>
+    <string name="language_set">语言设置</string>
+    <string name="speech_engine">语音引擎</string>
+    <string name="speech_engine_set">引擎设置</string>
+    <string name="system_set">系统设置</string>
+    <string name="wallpaper">主题壁纸</string>
+    <string name="user_manual">操作手册</string>
+    <string name="developer_mode">开发者模式</string>
+    <string name="developer_function">开发者选项</string>
+
+    <string name="water_level">水量</string>
+    <string name="battery_level">电量</string>
+    <string name="dev_battery_level">设备电量</string>
+    <string name="dev_water_level">设备水量</string>
+    <string name="current_battery_level">当前电量</string>
+    <string name="current_water_level">当前水量</string>
+
+    <string name="battery_val">电池余量</string>
+    <string name="battery_temp">电池温度</string>
+    <string name="battery_dev">设备电池</string>
+    <string name="battery_remote">遥控器电池</string>
+    <string name="battery_remote1">遥控电池</string>
+    <string name="battery">电池</string>
+    <string name="battery1">电池1</string>
+    <string name="battery2">电池2</string>
+    <string name="voltage">电压</string>
+    <string name="voltage1">电压1</string>
+    <string name="voltage2">电压2</string>
+    <string name="electric">电流</string>
+    <string name="electric1">电流1</string>
+    <string name="electric2">电流2</string>
+    <string name="temperature">温度</string>
+
+    <string name="dev_laboratory">实验室</string>
+    <string name="dev_ota_check">OTA检验</string>
+    <string name="dev_camera_state">摄像头检验</string>
+    <string name="dev_device_tool">设备助手</string>
+    <string name="dev_data_protocol">通信协议</string>
+    <string name="screen_lock">屏幕锁定</string>
+    <string name="file_management">文件管理</string>
+    <string name="power_saving_mode">省电模式</string>
+    <string name="operation_manual">操作手册</string>
+
+    <string name="export">导出</string>
+    <string name="export_success">导出成功</string>
+    <string name="export_error">导出失败</string>
+    <string name="password_error">密码错误</string>
+    <string name="password_title">请输入密码</string>
+    <string name="dev_address_title">请输入设备编号</string>
+
+    <string name="dev_offline">设备断开</string>
+    <string name="dev_online">设备连接</string>
+    <string name="dev_online_str">已连接设备</string>
+    <string name="dev_not_line_str">未连接设备</string>
+    <string name="dev_loading_str">设备等待连接</string>
+    <string name="installed">已安装</string>
+    <string name="installed_not">未安装</string>
+    <string name="list_data_empty">当前列表数据为空</string>
+    <string name="exit_application">再按一次返回键退出应用程序</string>
+    <string name="remote_battery_low">遥控器当前电量低</string>
+
+    <string name="update">升级</string>
+    <string name="update_find">发现新版本</string>
+    <string name="update_select">选择版本</string>
+    <string name="update_hold_off">暂不升级</string>
+    <string name="update_now">立即更新</string>
+    <string name="update_download">下载升级</string>
+    <string name="update_new_already">最新版本下载已存在</string>
+    <string name="update_new_down_fail">下载失败[检查网络或是权限]</string>
+    <string name="update_new_down_success">最新版本下载已完成</string>
+    <string name="update_downloading">下载中</string>
+    <string name="update_upgrading">升级中…</string>
+    <string name="update_fail">升级失败</string>
+    <string name="update_stop">停止升级</string>
+    <string name="update_success">升级成功</string>
+    <string name="update_version_new">新版本：</string>
+    <string name="update_version_date">发布日期：</string>
+    <string name="update_version_tips">升级过程中不允许对遥控器和设备进行任何操作</string>
+    <string name="update_version_loading">正在升级，请耐心等待…</string>
+    <string name="update_version_warning">注意：设备升级过程中不允许对遥控器和设备进行任何操作</string>
+
+    <string name="is_install">有新版本是否更新？</string>
+    <string name="is_install_apk">下载完成是否安装？</string>
+    <string name="is_install_speech">是否安装语音引擎包？</string>
+    <string name="is_install_live_tool">是否安装直播助手？</string>
+    <string name="not_new_version">当前没有可更新的版本</string>
+    <string name="current_latest_version">当前已是最新版本</string>
+    <string name="check_update_failed">更新失败</string>
+    <string name="download_apk_failed">下载失败</string>
+    <string name="check_network_connected">请检查网络是否连接</string>
+
+    <string name="video">视频</string>
+    <string name="rtsp_url">视频流地址</string>
+    <string name="video_address">视频地址</string>
+    <string name="open_hardware_decod">开启硬件解码</string>
+    <string name="open_guidelines">启用辅助线</string>
+    <string name="open_activate_scope">启用瞄准镜</string>
+    <string name="play_live_tool">直播助手</string>
+    <string name="play_image_set">画面设置</string>
+    <string name="video_rotation_set">画面旋转</string>
+    <string name="take_image_set">截图设置</string>
+    <string name="take_video_set">录制设置</string>
+    <string name="switch_screens">视频画面切换中</string>
+    <string name="not_switch_screens">当前没有可切换的画面</string>
+
+    <string name="report">报警</string>
+    <string name="warning">告警</string>
+    <string name="please_note">请注意</string>
+    <string name="please_select">请选择</string>
+    <string name="please_input">请输入</string>
+    <string name="please_input_name">请输入名称</string>
+    <string name="please_input_rtsp">请输入RTSP地址</string>
+    <string name="please_confirm_delete">请确认是否删除？</string>
+    <string name="please_confirm_delete_file">请确认是否删除该文件？</string>
+    <string name="please_confirm_delete_folder">请确认是否删除该文件夹？</string>
+    <string name="remote_battery_level">当前遥控器剩余电量</string>
+    <string name="remote_battery_low_tip">遥控器电量低</string>
+    <string name="remote_battery_temp_height_tip">当前遥控器温度过热</string>
+
+    <string name="about_txt1">广东凌度智能科技发展有限公司（简称“凌度智能”）成立于2021年，是一家以“机器人+AI”为核心的国家高新技术企业。我们致力于用创新科技，替代高空、高强度的人工作业，引领现代清洁服务业迈向安全、高效与环保的新纪元。</string>
+    <string name="about_txt2">公司聚焦于高空幕墙清洁与光伏板清洁两大领域，旗下凌云、凌空、凌光等系列机器人，已成为解决行业痛点的标杆产品。我们的机器人不仅驰骋于全球20多个国家和地区的幕墙与光伏电站，更以超过200项知识产权和国内首个行业团体标准的制定，奠定了行业技术领导者的地位。</string>
+    <string name="about_txt3">从国家高新技术企业到广交会至尊金奖，从粤港澳大湾区双创大赛金奖到省市“隐形冠军”培优计划，每一项荣誉都是我们创新实力的见证。凌度智能，正以坚实的科技步伐，定义清洁的未来。</string>
+
+    <string name="contact_web">网址：https://www.x-humanbot.com</string>
+    <string name="contact_phone">电话：400-833-7577</string>
+    <string name="contact_email">邮箱：info@gd-ldznkj.com</string>
+    <string name="contact_address">地址：广州市黄埔区京广协同创新中心2号楼主楼5层</string>
+</resources>

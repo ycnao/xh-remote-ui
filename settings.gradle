@@ -1,22 +1,3 @@
-pluginManagement {
-    repositories {
-        gradlePluginPortal()
-        google()
-        mavenCentral()
-    }
-}
-dependencyResolutionManagement {
-    repositoriesMode.set(RepositoriesMode.FAIL_ON_PROJECT_REPOS)
-    repositories {
-        google()
-        mavenCentral()
-        // 阿里云镜像（替代jcenter，jcenter已废弃）
-        maven { url 'https://maven.aliyun.com/repository/public' }
-        // 原maven.org可省略（mavenCentral已包含）
-        maven { url 'https://jitpack.io' }
-    }
-}
-
 rootProject.name = "xh-remote-ui"
 include ':app'
 include ':library'

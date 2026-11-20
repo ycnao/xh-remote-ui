@@ -1,0 +1,155 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="all">전체</string>
+    <string name="tips">팁</string>
+    <string name="more">더보기</string>
+    <string name="apply">적용</string>
+    <string name="cancel">취소</string>
+    <string name="confirm">확인</string>
+    <string name="edit">편집</string>
+    <string name="error">오류</string>
+    <string name="delete">삭제</string>
+    <string name="wifi">와이파이</string>
+    <string name="language">언어</string>
+    <string name="volume">음량</string>
+    <string name="not_data">데이터 없음</string>
+    <string name="fail">실패</string>
+    <string name="success">성공</string>
+
+    <string name="device_name">장치명</string>
+    <string name="device_info">장치 정보</string>
+    <string name="device_model">장치 모델</string>
+    <string name="device_model_sn">시리얼 번호</string>
+    <string name="app_names">앱 이름</string>
+    <string name="app_version">앱 버전</string>
+    <string name="about_us">앱 정보</string>
+    <string name="contact_us">문의하기</string>
+    <string name="volume_set">음량 설정</string>
+    <string name="language_set">언어 설정</string>
+    <string name="speech_engine">음성 엔진</string>
+    <string name="speech_engine_set">엔진 설정</string>
+    <string name="system_set">시스템 설정</string>
+    <string name="wallpaper">배경화면</string>
+    <string name="user_manual">사용자 설명서</string>
+    <string name="developer_mode">개발자 모드</string>
+    <string name="developer_function">개발자 옵션</string>
+
+    <string name="water_level">수위</string>
+    <string name="battery_level">배터리 잔량</string>
+    <string name="dev_battery_level">장치 배터리</string>
+    <string name="dev_water_level">장치 수위</string>
+    <string name="current_battery_level">현재 배터리</string>
+    <string name="current_water_level">현재 수위</string>
+    <string name="battery_val">배터리 잔량</string>
+    <string name="battery_temp">배터리 온도</string>
+    <string name="battery_dev">장치 배터리</string>
+    <string name="battery_remote">리모컨 배터리</string>
+    <string name="battery_remote1">리모컨 배터리</string>
+    <string name="battery">배터리</string>
+    <string name="battery1">배터리1</string>
+    <string name="battery2">배터리2</string>
+    <string name="voltage">전압</string>
+    <string name="voltage1">전압1</string>
+    <string name="voltage2">전압2</string>
+    <string name="electric">전류</string>
+    <string name="electric1">전류1</string>
+    <string name="electric2">전류2</string>
+    <string name="temperature">온도</string>
+
+    <string name="dev_laboratory">실험실</string>
+    <string name="dev_ota_check">OTA 확인</string>
+    <string name="dev_camera_state">카메라 확인</string>
+    <string name="dev_device_tool">장치 어시스턴트</string>
+    <string name="dev_data_protocol">통신 프로토콜</string>
+    <string name="screen_lock">화면 잠금</string>
+    <string name="file_management">파일 관리</string>
+    <string name="power_saving_mode">절전 모드</string>
+    <string name="operation_manual">조작 설명서</string>
+
+    <string name="export">내보내기</string>
+    <string name="export_success">내보내기 성공</string>
+    <string name="export_error">내보내기 실패</string>
+    <string name="password_error">비밀번호 오류</string>
+    <string name="password_title">비밀번호 입력</string>
+    <string name="dev_address_title">장치 번호 입력</string>
+
+    <string name="dev_offline">장치 연결 끊김</string>
+    <string name="dev_online">장치 연결됨</string>
+    <string name="dev_online_str">장치 연결됨</string>
+    <string name="dev_not_line_str">장치 미연결</string>
+    <string name="dev_loading_str">연결 대기중</string>
+    <string name="installed">설치됨</string>
+    <string name="installed_not">미설치</string>
+    <string name="list_data_empty">목록이 비었습니다</string>
+    <string name="exit_application">뒤로가기 한번 더 눌러 종료</string>
+    <string name="remote_battery_low">리모컨 배터리 부족</string>
+
+    <string name="update">업그레이드</string>
+    <string name="update_find">새 버전 발견</string>
+    <string name="update_select">버전 선택</string>
+    <string name="update_hold_off">나중에</string>
+    <string name="update_now">지금 업데이트</string>
+    <string name="update_download">업데이트 다운로드</string>
+    <string name="update_new_already">최신 버전 파일이 이미 존재합니다</string>
+    <string name="update_new_down_fail">다운로드 실패[네트워크 또는 권한 확인]</string>
+    <string name="update_new_down_success">최신 버전 다운로드 완료</string>
+    <string name="update_downloading">다운로드 중</string>
+    <string name="update_upgrading">업그레이드 중…</string>
+    <string name="update_fail">업그레이드 실패</string>
+    <string name="update_stop">업그레이드 중지</string>
+    <string name="update_success">업그레이드 성공</string>
+    <string name="update_version_new">새 버전：</string>
+    <string name="update_version_date">릴리즈 날짜：</string>
+    <string name="update_version_tips">업그레이드 도중 리모컨 및 장치를 조작하지 마세요</string>
+    <string name="update_version_loading">업그레이드 중입니다. 잠시 기다려 주세요…</string>
+    <string name="update_version_warning">주의：업그레이드 중 리모컨과 장치 조작 금지</string>
+
+    <string name="is_install">새 버전이 있습니다. 업데이트하시겠습니까?</string>
+    <string name="is_install_apk">다운로드 완료, 설치하시겠습니까?</string>
+    <string name="is_install_speech">음성 엔진 패키지를 설치하시겠습니까?</string>
+    <string name="is_install_live_tool">라이브 어시스턴트를 설치하시겠습니까?</string>
+    <string name="not_new_version">업데이트 버전 없음</string>
+    <string name="current_latest_version">최신 버전입니다</string>
+    <string name="check_update_failed">업데이트 실패</string>
+    <string name="download_apk_failed">다운로드 실패</string>
+    <string name="check_network_connected">네트워크 연결 확인</string>
+
+    <string name="video">영상</string>
+    <string name="rtsp_url">RTSP 주소</string>
+    <string name="video_address">영상 주소</string>
+    <string name="open_hardware_decod">하드웨어 디코딩</string>
+    <string name="open_guidelines">가이드라인</string>
+    <string name="open_activate_scope">조준경</string>
+    <string name="play_live_tool">라이브 어시스턴트</string>
+    <string name="play_image_set">화면 설정</string>
+    <string name="video_rotation_set">화면 회전</string>
+    <string name="take_image_set">캡처 설정</string>
+    <string name="take_video_set">녹화 설정</string>
+    <string name="switch_screens">화면 전환중</string>
+    <string name="not_switch_screens">전환 가능 화면 없음</string>
+
+    <string name="report">알람</string>
+    <string name="warning">경고</string>
+    <string name="please_note">주의</string>
+    <string name="please_select">선택하세요</string>
+    <string name="please_input">입력하세요</string>
+    <string name="please_input_name">이름 입력</string>
+    <string name="please_input_rtsp">RTSP 주소 입력</string>
+    <string name="please_confirm_delete">삭제하시겠습니까?</string>
+    <string name="please_confirm_delete_file">이 파일을 삭제하시겠습니까?</string>
+    <string name="please_confirm_delete_folder">이 폴더를 삭제하시겠습니까?</string>
+    <string name="remote_battery_level">리모컨 배터리 잔량</string>
+    <string name="remote_battery_low_tip">리모컨 배터리 부족</string>
+    <string name="remote_battery_temp_height_tip">리모컨 과열</string>
+
+    <string name="about_txt1">광동링두지능과학기술발전유한회사(링두지능)는 2021년 설립된 국가첨단기술기업으로, 로봇+AI를 핵심으로 합니다. 혁신기술로 고위험 인력작업을 대체하고 청소산업을 안전하고 효율적이며 친환경 방향으로 이끕니다.</string>
+    <string name="about_txt2">고층 커튼월 및 태양광 패널 청소에 집중. 링윈, 링콩, 링광 로봇은 업계 대표 제품입니다. 20여개 국가에 공급하며 지적재산권 200여건 보유, 국내 최초 업계 단체표준 제정으로 기술 선도 기업입니다.</string>
+    <string name="about_txt3">국가첨단기술기업, 광교회 최고금상, 대만구 창업대회 금상, 성시급 \'숨은 강자\' 육성 등 다수의 수상 경력. 링두지능은 기술로 청소의 미래를 정의합니다.</string>
+
+    <string name="contact_web">웹：https://www.x-humanbot.com</string>
+    <string name="contact_phone">전화：400-833-7577</string>
+    <string name="contact_email">이메일：info@gd-ldznkj.com</string>
+    <string name="contact_address">주소：광저우시 황푸구 징광혁신센터 2호관 본관 5층</string>
+
+</resources>

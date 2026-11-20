@@ -1,0 +1,189 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string-array name="Language">
+        <item>简体中文</item>
+        <item>繁体中文</item>
+        <item>English</item>
+        <item>日本語</item>
+        <item>한국어</item>
+        <item>Español</item>
+        <item>Russian</item>
+    </string-array>
+
+
+    <!-- 横向文本选择控件自定义属性 -->
+    <declare-styleable name="HorizontalTextSelectView">
+        <!-- 选中文字颜色 -->
+        <attr name="selectedTextColor" format="color|reference" />
+        <!-- 未选中文字颜色 -->
+        <attr name="unSelectedTextColor" format="color" />
+        <!-- 最大缩放比例（中间项），默认1.0 -->
+        <attr name="maxScale" format="float" />
+        <!-- 最小缩放比例（两侧项），默认0.7 -->
+        <attr name="minScale" format="float" />
+        <!-- 最大透明度（中间项），默认1.0 -->
+        <attr name="maxAlpha" format="float" />
+        <!-- 最小透明度（两侧项），默认0.5 -->
+        <attr name="minAlpha" format="float" />
+        <!-- 控件高度，默认80dp -->
+        <attr name="viewHeight" format="dimension" />
+    </declare-styleable>
+
+    <declare-styleable name="SwitchButton">
+        <attr name="sb_thumb_drawable" format="reference" />
+        <attr name="sb_thumb_color" format="color|reference" />
+        <attr name="sb_thumb_margin" format="dimension|reference" />
+        <attr name="sb_thumb_margin_top" format="dimension|reference" />
+        <attr name="sb_thumb_margin_bottom" format="dimension|reference" />
+        <attr name="sb_thumb_margin_left" format="dimension|reference" />
+        <attr name="sb_thumb_margin_right" format="dimension|reference" />
+        <attr name="sb_thumb_width" format="dimension|reference" />
+        <attr name="sb_thumb_height" format="dimension|reference" />
+        <attr name="sb_thumb_radius" format="dimension|reference" />
+        <attr name="sb_back_radius" format="dimension|reference" />
+        <attr name="sb_back_drawable" format="reference" />
+        <attr name="sb_back_color" format="color|reference" />
+        <attr name="sb_fade_back" format="boolean" />
+        <attr name="sb_thumb_range_ratio" format="float" />
+        <attr name="sb_animation_duration" format="integer" />
+        <attr name="sb_tint_color" format="color|reference" />
+        <attr name="sb_text_on" format="string" />
+        <attr name="sb_text_off" format="string" />
+        <attr name="sb_text_thumb_inset" format="dimension" />
+        <attr name="sb_text_extra" format="dimension" />
+        <attr name="sb_text_adjust" format="dimension" />
+    </declare-styleable>
+
+    <!--    圆形进度条-->
+    <declare-styleable name="CircularProgressView">
+        <attr name="backWidth" format="dimension" />    <!--背景圆环宽度-->
+        <attr name="progWidth" format="dimension" />    <!--进度圆环宽度-->
+        <attr name="backColor" format="color" />        <!--背景圆环颜色-->
+        <attr name="progColor" format="color" />        <!--进度圆环颜色-->
+        <attr name="progStartColor" format="color" />   <!--进度圆环开始颜色-->
+        <attr name="progFirstColor" format="color" />   <!--进度圆环结束颜色-->
+        <attr name="progress" format="integer" />       <!--圆环进度-->
+    </declare-styleable>
+
+    <declare-styleable name="SemiCircleProgressView">
+        <attr name="scpv_max" format="float" />
+        <attr name="scpv_progress" format="float" />
+        <attr name="scpv_strokeWidth" format="dimension" />
+        <attr name="scpv_trackColor" format="color" />
+        <attr name="scpv_startColor" format="color" />
+        <attr name="scpv_middleColor" format="color" />
+        <attr name="scpv_endColor" format="color" />
+        <!-- 黄色出现的位置(0~1，在整个半圆中的比例)，越小黄色出现越早 -->
+        <attr name="scpv_middlePosition" format="float" />
+        <attr name="scpv_textSize" format="dimension" />
+        <attr name="scpv_textColor" format="color" />
+        <attr name="scpv_textGap" format="dimension" />
+        <attr name="scpv_textVisible" format="boolean" />
+        <attr name="scpv_animateOnAttach" format="boolean" />
+    </declare-styleable>
+
+    <declare-styleable name="DJIScaleView">
+        <!-- 最小值 -->
+        <attr name="minValue" format="float" />
+        <!-- 最大值 -->
+        <attr name="maxValue" format="float" />
+        <!-- 主刻度间隔（如每隔10画一个长刻度） -->
+        <attr name="majorStep" format="integer" />
+        <!-- 刻度尺颜色 -->
+        <attr name="scaleColor" format="color" />
+        <!-- 中心数值文字颜色 -->
+        <attr name="valueTextColor" format="color" />
+        <!-- 中心指示器颜色 -->
+        <attr name="indicatorColor" format="color" />
+    </declare-styleable>
+
+    <declare-styleable name="ArcSeekBar">
+        <attr name="arc_width" format="dimension|reference" />
+        <attr name="arc_open_angle" format="float" />
+        <attr name="arc_rotate_angle" format="float" />
+        <!--        <attr name="arc_colors" format="reference" />-->
+        <attr name="arc_border_width" format="dimension|reference" />
+        <attr name="arc_border_color" format="color|reference" />
+        <attr name="arc_max" format="integer|reference" />
+        <attr name="arc_min" format="integer|reference" />
+        <attr name="arc_progress" format="integer|reference" />
+        <attr name="arc_progress_background" format="reference" />
+        <attr name="arc_progress_front" format="reference" />
+        <attr name="arc_thumb_width" format="dimension|reference" />
+        <attr name="arc_thumb_color" format="color|reference" />
+        <attr name="arc_thumb_radius" format="dimension|reference" />
+        <attr name="arc_thumb_shadow_radius" format="dimension|reference" />
+        <attr name="arc_thumb_shadow_color" format="color|reference" />
+        <attr name="arc_thumb_mode" format="integer|dimension">
+            <enum name="STROKE" value="0" />
+            <enum name="FILL" value="1" />
+            <enum name="FILL_STROKE" value="2" />
+        </attr>
+        <attr name="arc_shadow_radius" format="dimension|reference" />
+        <attr name="arc_offset_x" format="integer" />
+        <attr name="arc_offset_y" format="integer" />
+    </declare-styleable>
+
+    <array name="arc_colors_default">
+        <item>@color/white</item>
+        <item>#FDF6F8</item>
+        <item>#F5E5E9</item>
+        <item>#E9D0D9</item>
+        <item>#E1BEC9</item>
+        <item>#D099AB</item>
+        <item>#C6879B</item>
+        <item>#B7647D</item>
+        <item>#AA4563</item>
+    </array>
+    <array name="arc_colors_default2">
+        <item>@color/white</item>
+        <item>@color/white</item>
+        <item>@color/white</item>
+        <item>@color/white</item>
+        <item>@color/white</item>
+        <item>@color/white</item>
+        <item>@color/white</item>
+        <item>#FDF6F8</item>
+        <item>#F5E5E9</item>
+        <item>#E9D0D9</item>
+        <item>#E1BEC9</item>
+        <item>#D099AB</item>
+        <item>#C6879B</item>
+        <item>#B7647D</item>
+        <item>#AA4563</item>
+    </array>
+    <array name="arc_colors_1">
+        <item>#FFE881</item>
+        <item>#fefefe</item>
+        <item>#68D1F4</item>
+    </array>
+    <array name="arc_colors_2">
+        <item>#FFFFFF</item>
+        <item>#fefefe</item>
+        <item>#9E252A</item>
+    </array>
+
+
+    <declare-styleable name="GradientCircleProgressView">
+        <attr name="gcp_progress" format="float" />
+        <attr name="gcp_startColor" format="color|reference" />
+        <attr name="gcp_endColor" format="color|reference" />
+        <attr name="gcp_trackColor" format="color|reference" />
+        <attr name="gcp_strokeWidth" format="dimension" />
+        <attr name="gcp_startAngle" format="float" />
+        <attr name="gcp_numberTextSize" format="dimension" />
+        <attr name="gcp_subTextSize" format="dimension" />
+        <attr name="gcp_numberColor" format="color|reference" />
+        <attr name="gcp_subTextColor" format="color|reference" />
+        <attr name="gcp_subText" format="string" />
+        <attr name="gcp_showPercent" format="boolean" />
+        <attr name="gcp_animDuration" format="integer" />
+        <attr name="gcp_buttonText" format="string" />
+        <attr name="gcp_retryText" format="string" />
+        <attr name="gcp_successText" format="string" />
+        <attr name="gcp_failedText" format="string" />
+        <attr name="gcp_errorStartColor" format="color|reference" />
+        <attr name="gcp_errorEndColor" format="color|reference" />
+    </declare-styleable>
+</resources>

@@ -1,0 +1,25 @@
+package com.xcore.remote.ui.widget.callback;
+
+import android.view.View;
+
+/**
+ * 按钮回调
+ * author: Created by 闹闹 on 2018/6/26
+ * version: 1.0.0
+ */
+public interface JxEditDialogCallback {
+
+    /**
+     * 取消对话框
+     */
+    void cancel(View view);
+
+    /**
+     * 确定对话框
+     */
+    void confirm(String txt, int length, int type, String url);
+
+
+    void error();
+
+}

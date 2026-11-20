@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="protocol_list">
+        <item>原廠</item>
+        <item>自研</item>
+    </string-array>
+
+    <string-array name="ui_list">
+        <item>經典</item>
+        <item>無界</item>
+    </string-array>
+
+    <string-array name="dev_player_set_info">
+        <item>正向</item>
+        <item>反向</item>
+    </string-array>
+    <string-array name="dev_video_set_info">
+        <item>純畫面</item>
+        <item>含資料</item>
+    </string-array>
+    <string-array name="worker_time">
+        <item>30分鐘</item>
+        <item>1小時</item>
+        <item>2小時</item>
+        <item>3小時</item>
+        <item>永不</item>
+    </string-array>
+    <string-array name="dev_video_rotation">
+        <item>0</item>
+        <item>90</item>
+        <item>180</item>
+        <item>270</item>
+    </string-array>
+    <string-array name="wallpaper_list">
+        <item>檢視</item>
+        <item>套用</item>
+    </string-array>
+</resources>
