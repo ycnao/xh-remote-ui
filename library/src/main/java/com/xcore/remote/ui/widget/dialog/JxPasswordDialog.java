@@ -12,7 +12,6 @@ import android.widget.TextView;
 import com.xcore.libs.utils.Md5Utils;
 import com.xcore.remote.ui.R;
 import com.xcore.remote.ui.app.JxConstant;
-import com.xcore.remote.ui.data.DataHelper;
 import com.xcore.remote.ui.widget.callback.JxEditDialogCallback;
 
 /**
@@ -73,7 +72,7 @@ public class JxPasswordDialog extends Dialog {
         btnConfirm.setOnClickListener(v -> {
             String editTxt = editContent.getText().toString();
             if (editTxt.contains("#")) {
-                String[] split = DataHelper.strToArray(editTxt);
+                String[] split = editTxt.split("#");
                 if (split.length >= 3 && split[1].equals("touch")) {
                     String toMd5 = Md5Utils.toMD5(snMd5);
                     if (split[2].equals(toMd5)) {

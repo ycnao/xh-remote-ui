@@ -18,8 +18,6 @@ import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;
 
 
-import com.xcore.remote.ui.R;
-
 import java.util.List;
 
 
@@ -65,7 +63,7 @@ public abstract class RxDialog extends Dialog implements DialogInterface.OnDismi
         this.requestWindowFeature(Window.FEATURE_NO_TITLE);
         window = this.getWindow();
 
-        window.setBackgroundDrawableResource(R.mipmap.transparent_bg);
+        window.setBackgroundDrawableResource(android.R.color.transparent);
         LayoutParams params = window.getAttributes();
         params.systemUiVisibility = View.SYSTEM_UI_FLAG_HIDE_NAVIGATION | View.SYSTEM_UI_FLAG_IMMERSIVE;
         window.setAttributes(params);
