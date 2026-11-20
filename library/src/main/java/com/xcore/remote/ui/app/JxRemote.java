@@ -58,6 +58,7 @@ public class JxRemote {
         CrashMailSender.initReport(mContext, authCode);
     }
 
+
     public static Context getContext() {
         return mContext;
     }

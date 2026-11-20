@@ -9,5 +9,5 @@ data class SelectFileData(
     val path: String,
     val type: String,
     val totalSize: Long,
-    val available: Long,
+    val available: Long
 )
